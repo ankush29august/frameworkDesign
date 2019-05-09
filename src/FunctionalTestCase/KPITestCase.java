@@ -11,6 +11,7 @@ public class KPITestCase extends BaseClass {
 	
 	@Test
 	public void performKPI() {
+		//to check git functionality
 		logger=extent.createTest("PerformKPI");
 		LoginPage login=new LoginPage(driver);
 		
