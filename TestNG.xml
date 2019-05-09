@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<!-- 
+  <test  name="ChromeTest">
+  <parameter name="browser" value="chrome"></parameter>
+  <parameter name="RunType" value="local"></parameter>
+    <classes>
+     <class name="FunctionalTestCase.Sprint_1"/> 
+      <class name="FunctionalTestCase.VacancyTestCase"/>
+      
+    </classes>
+  </test> Test
+  
+  <test  name="FirefoxTest">
+  <parameter name="browser" value="firefox"></parameter>
+  <parameter name="RunType" value="local"></parameter>
+    <classes>
+      <class name="FunctionalTestCase.Sprint_1"/>
+
+    </classes>
+  </test>  -->
+  
+   <test  name="IeTest">
+  <parameter name="browser" value="ie"></parameter>
+  <parameter name="RunType" value="local"></parameter>
+    <classes>
+      <class name="FunctionalTestCase.Sprint_1"/>
+
+    </classes>
+  </test> 
+ 
+ </suite> <!-- Suite -->
+ 

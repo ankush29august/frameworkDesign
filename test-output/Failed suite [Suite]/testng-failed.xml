@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Failed suite [Suite]]">
+  <parameter name="browser" value="chrome"/>
+  <parameter name="Url" value="https://opensource-demo.orangehrmlive.com/"/>
+  <test name="ChromeTest">
+    <parameter name="browser" value="chrome"/>
+    <parameter name="Url" value="https://opensource-demo.orangehrmlive.com/"/>
+    <classes>
+      <class name="FunctionalTestCase.LoginTestCase"/>
+    </classes>
+  </test> <!-- ChromeTest -->
+</suite> <!-- Failed suite [Failed suite [Suite]] -->
